@@ -14,6 +14,7 @@ body{
 .topnav, .navlinks{
     display: flex;
     justify-content: right;
+    align-items: right;
     position: sticky;
     top:0;
     left: 0;
@@ -88,15 +89,16 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20vh 25vw;
+    margin: 20vh auto;
     background-color: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow:0px 5px 15px rgba(0, 0, 0, 0.6);
-    height: 45vh;
-    width: 50vw;
+    height: auto;
+    width: auto;
     border-radius: 30px;
     border: 1px solid rgba(0, 0, 0, .30);
+    padding: 30px;
 }
 
 .pic .img{
@@ -109,7 +111,7 @@ body{
 
 .aboutdets{
     margin-left: 20px;
-    
+      
 }
 
 .hi{
@@ -183,3 +185,178 @@ body{
     color: #ff88cea4;
 }
 
+
+
+/* @media (max-width:1620px) {
+    .hi{
+        font-size: 36px;
+    }
+    .name{
+        font-size: 32px;
+    }
+    .about{
+        font-size: 18px;
+    }
+    .buttons button{
+        font-size: 16px;
+    }
+    
+} */
+
+
+@media (max-width:440px) {
+    .hi{
+        font-size: 18px;
+    }
+    .name{
+        font-size: 16px;
+    }
+    .about{
+        font-size: 10px;
+    }
+    .buttons button{
+        font-size: 8px;
+        margin-left: 10px;
+    margin-top: 10px;
+    }
+    .img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .details{
+        margin: 75% auto 10%;
+    }
+
+    body{
+        background-image: url('https://img.freepik.com/free-vector/colorful-paint-splashes_1035-7496.jpg');
+        /* background-size: auto 100%; */
+        background-size: cover;
+    }
+    
+    .topnav{
+        font-size: 8px;
+        gap: 10px;
+        margin-right: 10px;
+    }
+
+    .navlinks a{
+        font-size: 12px;
+    }
+    
+    .navlinks a:hover,
+    .navlinks a.active{
+        color: black;
+    }
+    
+}
+
+
+@media (max-width:390px) {
+    .hi{
+        font-size: 18px;
+    }
+    .name{
+        font-size: 12px;
+    }
+    .about{
+        font-size: 10px;
+    }
+    .buttons button{
+        font-size: 8px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .img{
+        height: 120px;
+        width: 120px;
+    }
+
+    .details{
+        margin: 70% auto 10%;
+    }
+
+    body{
+        background-image: url('https://img.freepik.com/free-vector/colorful-paint-splashes_1035-7496.jpg');
+        /* background-size: auto 100%; */
+        background-size: cover;
+    }
+    
+    .topnav{
+        font-size: 8px;
+        gap: 5px;
+        margin-right: 5px;
+    }
+
+    .navlinks a{
+        font-size: 12px;
+    }
+    
+    .navlinks a:hover,
+    .navlinks a.active{
+        color: black;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+
+@media (max-width:300px) {
+    .hi{
+        font-size: 12px;
+    }
+    .name{
+        font-size: 10px;
+    }
+    .about{
+        font-size: 8px;
+    }
+    .buttons button{
+        font-size: 6px;
+        margin-left: 10px;
+        margin-top: 15px;
+        border-radius: 15px;
+    }
+    .img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .details{
+        margin: 70% auto 10%;
+    }
+
+    body{
+        background-image: url('https://img.freepik.com/free-vector/colorful-paint-splashes_1035-7496.jpg');
+        /* background-size: auto 100%; */
+        background-size: cover;
+    }
+    
+    .topnav, .navlinks{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+        font-size: 6px;
+    }
+
+    .navlinks a{
+        font-size: 8px;
+
+    }
+    
+    .navlinks a:hover,
+    .navlinks a.active{
+        color: black;
+        margin: 0;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
