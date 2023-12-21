@@ -206,6 +206,67 @@ body{
 }
 
 
+@media (max-width:1080px){
+    .topnav{
+        font-size: 8px;
+        gap: 10px;
+        margin-right: 10px;
+    }
+
+    .navlinks a{
+        font-size: 12px;
+    }
+    
+    .navlinks a:hover,
+    .navlinks a.active{
+        color: black;
+    }
+
+    .hed h1{
+        font-size: 50px;
+    }
+
+    .detss{
+        flex-direction: column;
+    }
+
+
+    .namee, .address{
+        margin: 15px;
+    }
+
+    .mapmain{
+        display: none;
+    }
+
+    .name{
+        display: flex;
+        flex-direction: row;
+        font-size: 36px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+
+    .lii li{
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .ali li{
+        font-size: 28px;
+    }
+
+    .heda h3{
+        font-size: 42px;
+    }
+
+    body{
+        background-image: url('https://img.freepik.com/free-vector/colorful-paint-splashes_1035-7496.jpg');
+        background-size: cover;
+    }
+}
+
+
 @media (max-width:430px){
     .topnav{
         font-size: 8px;
@@ -242,16 +303,24 @@ body{
     .name{
         display: flex;
         flex-direction: row;
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 22px;
+        font-weight: 800;
         margin-bottom: 10px;
     }
 
     .lii li{
         font-size: 16px;
+        font-weight: 600;
     }
 
     .ali li{
         font-size: 16px;
+    }
+
+    
+
+    body{
+        background-image: url('https://img.freepik.com/free-vector/colorful-paint-splashes_1035-7496.jpg');
+        background-size: cover;
     }
 }
